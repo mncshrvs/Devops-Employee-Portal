@@ -36,3 +36,9 @@ To build an automated CI/CD pipeline
 
 and deploy an application using Kubernetes.
 
+
+
+\## Developer Information
+
+Project maintained by DevOps Engineering Team.
+
