@@ -42,3 +42,23 @@ and deploy an application using Kubernetes.
 
 Project maintained by DevOps Engineering Team.
 
+
+
+
+
+
+
+\## Deployment Strategy
+
+
+
+\- Source Code Management: GitHub
+
+\- Containerization: Docker
+
+\- CI/CD: Jenkins
+
+\- Orchestration: Kubernetes
+
+\- Monitoring: Prometheus and Grafana
+
