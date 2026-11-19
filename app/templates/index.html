@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Employee Portal</h1>
+        <p>Employee Management Dashboard</p>
+    </header>
+
+    <main>
+        <h2>Our Employees</h2>
+
+        <div class="employee-container">
+            {% for employee in employees %}
+            <div class="employee-card">
+                <h3>{{ employee.name }}</h3>
+                <p><strong>ID:</strong> {{ employee.id }}</p>
+                <p><strong>Role:</strong> {{ employee.role }}</p>
+                <p><strong>Department:</strong> {{ employee.department }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>
